@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375BFF88172CC6F200C6284C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BFF87172CC6F200C6284C /* Foundation.framework */; };
+		375BFF8D172CC6F200C6284C /* PLMongoIncrementalStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 375BFF8C172CC6F200C6284C /* PLMongoIncrementalStore.h */; };
+		375BFF8F172CC6F200C6284C /* PLMongoIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BFF8E172CC6F200C6284C /* PLMongoIncrementalStore.m */; };
+		375BFF97172CC6F200C6284C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BFF96172CC6F200C6284C /* SenTestingKit.framework */; };
+		375BFF99172CC6F200C6284C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BFF98172CC6F200C6284C /* UIKit.framework */; };
+		375BFF9A172CC6F200C6284C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BFF87172CC6F200C6284C /* Foundation.framework */; };
+		375BFF9D172CC6F200C6284C /* libPLMongoIncrementalStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 375BFF84172CC6F200C6284C /* libPLMongoIncrementalStore.a */; };
+		375BFFA3172CC6F200C6284C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375BFFA1172CC6F200C6284C /* InfoPlist.strings */; };
+		375BFFA6172CC6F200C6284C /* PLMongoIncrementalStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BFFA5172CC6F200C6284C /* PLMongoIncrementalStoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375BFF9B172CC6F200C6284C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375BFF7C172CC6F200C6284C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375BFF83172CC6F200C6284C;
+			remoteInfo = PLMongoIncrementalStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		375BFF82172CC6F200C6284C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				375BFF8D172CC6F200C6284C /* PLMongoIncrementalStore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		375BFF84172CC6F200C6284C /* libPLMongoIncrementalStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPLMongoIncrementalStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		375BFF87172CC6F200C6284C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375BFF8B172CC6F200C6284C /* PLMongoIncrementalStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLMongoIncrementalStore-Prefix.pch"; sourceTree = "<group>"; };
+		375BFF8C172CC6F200C6284C /* PLMongoIncrementalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMongoIncrementalStore.h; sourceTree = "<group>"; };
+		375BFF8E172CC6F200C6284C /* PLMongoIncrementalStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMongoIncrementalStore.m; sourceTree = "<group>"; };
+		375BFF95172CC6F200C6284C /* PLMongoIncrementalStoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLMongoIncrementalStoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375BFF96172CC6F200C6284C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		375BFF98172CC6F200C6284C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		375BFFA0172CC6F200C6284C /* PLMongoIncrementalStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLMongoIncrementalStoreTests-Info.plist"; sourceTree = "<group>"; };
+		375BFFA2172CC6F200C6284C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375BFFA4172CC6F200C6284C /* PLMongoIncrementalStoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMongoIncrementalStoreTests.h; sourceTree = "<group>"; };
+		375BFFA5172CC6F200C6284C /* PLMongoIncrementalStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMongoIncrementalStoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375BFF81172CC6F200C6284C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BFF88172CC6F200C6284C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BFF91172CC6F200C6284C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BFF97172CC6F200C6284C /* SenTestingKit.framework in Frameworks */,
+				375BFF99172CC6F200C6284C /* UIKit.framework in Frameworks */,
+				375BFF9A172CC6F200C6284C /* Foundation.framework in Frameworks */,
+				375BFF9D172CC6F200C6284C /* libPLMongoIncrementalStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375BFF7B172CC6F200C6284C = {
+			isa = PBXGroup;
+			children = (
+				375BFF89172CC6F200C6284C /* PLMongoIncrementalStore */,
+				375BFF9E172CC6F200C6284C /* PLMongoIncrementalStoreTests */,
+				375BFF86172CC6F200C6284C /* Frameworks */,
+				375BFF85172CC6F200C6284C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375BFF85172CC6F200C6284C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375BFF84172CC6F200C6284C /* libPLMongoIncrementalStore.a */,
+				375BFF95172CC6F200C6284C /* PLMongoIncrementalStoreTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375BFF86172CC6F200C6284C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375BFF87172CC6F200C6284C /* Foundation.framework */,
+				375BFF96172CC6F200C6284C /* SenTestingKit.framework */,
+				375BFF98172CC6F200C6284C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375BFF89172CC6F200C6284C /* PLMongoIncrementalStore */ = {
+			isa = PBXGroup;
+			children = (
+				375BFF8C172CC6F200C6284C /* PLMongoIncrementalStore.h */,
+				375BFF8E172CC6F200C6284C /* PLMongoIncrementalStore.m */,
+				375BFF8A172CC6F200C6284C /* Supporting Files */,
+			);
+			path = PLMongoIncrementalStore;
+			sourceTree = "<group>";
+		};
+		375BFF8A172CC6F200C6284C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375BFF8B172CC6F200C6284C /* PLMongoIncrementalStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375BFF9E172CC6F200C6284C /* PLMongoIncrementalStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				375BFFA4172CC6F200C6284C /* PLMongoIncrementalStoreTests.h */,
+				375BFFA5172CC6F200C6284C /* PLMongoIncrementalStoreTests.m */,
+				375BFF9F172CC6F200C6284C /* Supporting Files */,
+			);
+			path = PLMongoIncrementalStoreTests;
+			sourceTree = "<group>";
+		};
+		375BFF9F172CC6F200C6284C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375BFFA0172CC6F200C6284C /* PLMongoIncrementalStoreTests-Info.plist */,
+				375BFFA1172CC6F200C6284C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375BFF83172CC6F200C6284C /* PLMongoIncrementalStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375BFFA9172CC6F200C6284C /* Build configuration list for PBXNativeTarget "PLMongoIncrementalStore" */;
+			buildPhases = (
+				375BFF80172CC6F200C6284C /* Sources */,
+				375BFF81172CC6F200C6284C /* Frameworks */,
+				375BFF82172CC6F200C6284C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLMongoIncrementalStore;
+			productName = PLMongoIncrementalStore;
+			productReference = 375BFF84172CC6F200C6284C /* libPLMongoIncrementalStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		375BFF94172CC6F200C6284C /* PLMongoIncrementalStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375BFFAC172CC6F200C6284C /* Build configuration list for PBXNativeTarget "PLMongoIncrementalStoreTests" */;
+			buildPhases = (
+				375BFF90172CC6F200C6284C /* Sources */,
+				375BFF91172CC6F200C6284C /* Frameworks */,
+				375BFF92172CC6F200C6284C /* Resources */,
+				375BFF93172CC6F200C6284C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375BFF9C172CC6F200C6284C /* PBXTargetDependency */,
+			);
+			name = PLMongoIncrementalStoreTests;
+			productName = PLMongoIncrementalStoreTests;
+			productReference = 375BFF95172CC6F200C6284C /* PLMongoIncrementalStoreTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375BFF7C172CC6F200C6284C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pragmatic Labs, LLC";
+			};
+			buildConfigurationList = 375BFF7F172CC6F200C6284C /* Build configuration list for PBXProject "PLMongoIncrementalStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 375BFF7B172CC6F200C6284C;
+			productRefGroup = 375BFF85172CC6F200C6284C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375BFF83172CC6F200C6284C /* PLMongoIncrementalStore */,
+				375BFF94172CC6F200C6284C /* PLMongoIncrementalStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375BFF92172CC6F200C6284C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BFFA3172CC6F200C6284C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375BFF93172CC6F200C6284C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375BFF80172CC6F200C6284C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BFF8F172CC6F200C6284C /* PLMongoIncrementalStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375BFF90172CC6F200C6284C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375BFFA6172CC6F200C6284C /* PLMongoIncrementalStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375BFF9C172CC6F200C6284C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375BFF83172CC6F200C6284C /* PLMongoIncrementalStore */;
+			targetProxy = 375BFF9B172CC6F200C6284C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375BFFA1172CC6F200C6284C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375BFFA2172CC6F200C6284C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375BFFA7172CC6F200C6284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		375BFFA8172CC6F200C6284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375BFFAA172CC6F200C6284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PLMongoIncrementalStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PLMongoIncrementalStore/PLMongoIncrementalStore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		375BFFAB172CC6F200C6284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PLMongoIncrementalStore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PLMongoIncrementalStore/PLMongoIncrementalStore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		375BFFAD172CC6F200C6284C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PLMongoIncrementalStore/PLMongoIncrementalStore-Prefix.pch";
+				INFOPLIST_FILE = "PLMongoIncrementalStoreTests/PLMongoIncrementalStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		375BFFAE172CC6F200C6284C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PLMongoIncrementalStore/PLMongoIncrementalStore-Prefix.pch";
+				INFOPLIST_FILE = "PLMongoIncrementalStoreTests/PLMongoIncrementalStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375BFF7F172CC6F200C6284C /* Build configuration list for PBXProject "PLMongoIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BFFA7172CC6F200C6284C /* Debug */,
+				375BFFA8172CC6F200C6284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375BFFA9172CC6F200C6284C /* Build configuration list for PBXNativeTarget "PLMongoIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BFFAA172CC6F200C6284C /* Debug */,
+				375BFFAB172CC6F200C6284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		375BFFAC172CC6F200C6284C /* Build configuration list for PBXNativeTarget "PLMongoIncrementalStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375BFFAD172CC6F200C6284C /* Debug */,
+				375BFFAE172CC6F200C6284C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375BFF7C172CC6F200C6284C /* Project object */;
+}
